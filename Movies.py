@@ -155,7 +155,7 @@ def reset_filters():
     entry_filter_year.delete(0, tk.END)
     update_movie_table()
 
-def selected_item[0]:
+def delete_selected_movie():
     """Удаляет выбранный фильм из списка."""
     selected_item = tree.selection()
     if not selected_item:
